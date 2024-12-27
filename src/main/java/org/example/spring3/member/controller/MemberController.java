@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 //localhost:8888/member
 public class MemberController {
 
+
     @GetMapping("member")
     //localhost:8888/member/member
     public String member() {
